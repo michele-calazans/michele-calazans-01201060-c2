@@ -117,7 +117,7 @@ public class LutadorController {
             }
         }
 
-        if (lutadores.size() > 0) {
+        if (lutadoresMortos.size() > 0) {
             return ResponseEntity.status(200).body(lutadoresMortos);
         } else {
             return ResponseEntity.status(204).body(lutadoresMortos);
